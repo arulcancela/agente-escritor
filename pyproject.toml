@@ -1,0 +1,17 @@
+[project]
+name = "agente-escritor"
+version = "1.0.0"
+description = "Pipeline multi-agente en Python para la redacción autónoma de documentos técnicos."
+requires-python = ">=3.11"
+readme = "README.md"
+license = { text = "MIT" }
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra -q"
+pythonpath = ["."]
