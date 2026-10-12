@@ -1,0 +1,44 @@
+{
+    "modelo_agente": "deepseek-chat",
+    "modelo_ligero": "deepseek-chat",
+    "modelo_redactor": "deepseek-chat",
+    "modelo_verificador": "deepseek-chat",
+    "modelo_traductor": "deepseek-chat",
+
+    "rag_chunk_size": 2000,
+    "rag_chunk_overlap": 300,
+    "rag_top_k": 15,
+    "rag_use_semantic": true,
+
+    "web_max_results": 8,
+    "web_cache_horas": 24,
+    "web_deep_search": true,
+    "web_max_urls_visit": 5,
+    "scraping_timeout": 15,
+
+    "max_iteraciones": 15,
+    "max_chars_contexto": 140000,
+    "refinamiento_max": 3,
+
+    "idioma_principal": "es",
+    "idiomas_salida": ["es"],
+
+    "excluir_patrones": [
+        "resultado/",
+        "Documentos finales/",
+        "cache/",
+        ".git/",
+        "__pycache__/",
+        "env/",
+        ".bak"
+    ],
+    "formatos_texto": [
+        ".txt", ".md", ".csv", ".json", ".log", ".yaml", ".yml", ".xml",
+        ".py", ".js", ".ts", ".sh", ".cfg", ".ini", ".toml"
+    ],
+    "formatos_rich": [
+        ".pdf", ".docx", ".html", ".htm"
+    ],
+    "github_token": "",
+    "notion_token": ""
+}

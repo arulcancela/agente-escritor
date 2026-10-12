@@ -1,0 +1,53 @@
+# ── Entornos virtuales ────────────────────────────────────────────
+env/
+.venv/
+venv/
+ENV/
+
+# ── Secretos (NUNCA subir) ────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── Datos generados / salidas del agente ──────────────────────────
+proyectos/
+resultado/
+cache/
+*.db
+*.sqlite
+memoria.db
+
+# ── Backups y temporales ──────────────────────────────────────────
+*.bak
+*.bak.*
+*.tmp
+temp/
+tmp/
+
+# ── Documentos personales o de empresa (confidencial) ─────────────
+*.pdf
+*.docx
+*.xlsx
+!docs/**/*.pdf
+
+# ── Python cache & artifacts ──────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# ── Logs ──────────────────────────────────────────────────────────
+*.log
+
+# ── Sistema / editores ────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
