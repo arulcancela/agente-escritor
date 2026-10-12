@@ -26,6 +26,10 @@ INGEST → RESEARCH → WRITE → REVIEW → REFINE → FINALIZE
 Además incluye una **interfaz web (Streamlit)** con progreso en tiempo real y
 subida de archivos.
 
+![Interfaz de Agente Escritor](docs/img/screenshot-interfaz.png)
+
+> Interfaz web: selección de proyecto, fase de trabajo y control del pipeline.
+
 ---
 
 ## ✨ Características
